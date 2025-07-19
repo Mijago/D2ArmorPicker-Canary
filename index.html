@@ -21,16 +21,16 @@
     <meta charset="utf-8">
     <title>D2ArmorPicker</title>
     <base href="/">
-    <meta name="viewport" content="width=460">
+    <meta name="viewport" content="width=640">
     <script>
 			function checkViewPort() {
 				let viewport = document.querySelector("meta[name=viewport]");
 				let newViewport = document.createElement("meta");
 				newViewport.setAttribute("name", "viewport");
-				if (screen.width >= 474) {
+				if (screen.width >= 640) {
 					newViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
 				} else {
-					newViewport.setAttribute("content", "width=460");
+					newViewport.setAttribute("content", "width=640");
 				}
 				viewport.parentNode.removeChild(viewport);
 				document.head.appendChild(newViewport);
