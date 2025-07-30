@@ -15,30 +15,13 @@
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-critters-container>
   <head>
     <meta charset="utf-8">
     <title>D2ArmorPicker</title>
     <base href="/">
-    <meta name="viewport" content="width=660">
-    <script>
-      function checkViewPort() {
-        let viewport = document.querySelector("meta[name=viewport]");
-        let newViewport = document.createElement("meta");
-        newViewport.setAttribute("name", "viewport");
-        if (screen.width >= 660) {
-          newViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
-        } else {
-          newViewport.setAttribute("content", "width=660");
-        }
-        viewport.parentNode.removeChild(viewport);
-        document.head.appendChild(newViewport);
-      }
-      checkViewPort();
-      screen.orientation.addEventListener("change", checkViewPort);
-      window.addEventListener("resize", checkViewPort);
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="D2ArmorPicker by Mijago">
     <meta property="og:site_name" content="D2ArmorPicker by Mijago">
     <meta property="og:type" content="website">
@@ -56,5 +39,5 @@
   <body class="mat-typography">
     <app-root></app-root>
     <script src="https://kis3.mijago.de/kis3.js"></script>
-  <script src="runtime.95830f77f7d2323c.js" type="module"></script><script src="polyfills.c38c2d2386d2a347.js" type="module"></script><script src="vendor.4cb22fdfcecc2e89.js" type="module"></script><script src="main.3228826905816af2.js" type="module"></script></body>
+  <script src="runtime.57b410b1d09cbf01.js" type="module"></script><script src="polyfills.c38c2d2386d2a347.js" type="module"></script><script src="vendor.30cd8c8e4a7a0b0d.js" type="module"></script><script src="main.6b711924e497cc9f.js" type="module"></script></body>
 </html>
