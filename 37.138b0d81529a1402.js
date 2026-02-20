@@ -1,2 +1,0 @@
-(()=>{"use strict";addEventListener("message",({data:e})=>{const s={id:e.id,success:!1};try{s.data=JSON.parse(e.jsonString),s.success=!0}catch(r){s.error=r instanceof Error?r.message:"Unknown parsing error"}postMessage(s)})})();
-//# sourceMappingURL=37.138b0d81529a1402.js.map
