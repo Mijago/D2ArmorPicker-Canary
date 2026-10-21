@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/authenticated-v2/settings/desired-mod-limit-selection/slot-limitation-title/slot-limitation-title.component.css"],
+  "sourcesContent": ["/*\n * Copyright (c) 2023 D2ArmorPicker by Mijago.\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as published\n * by the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program.  If not, see <http://www.gnu.org/licenses/>.\n */\n\n.energy {\n  border-bottom: #a1a1a1 1px solid;\n  margin-bottom: 6px;\n}\n\n.selector-element {\n  position: relative;\n  float: right;\n  width: 90px;\n  top: -26px;\n}\n\n.selector-slots {\n  position: relative;\n  float: right;\n  width: 155px;\n  top: -26px;\n\n  text-align: center;\n}\n"],
+  "mappings": "AAiBA,CAAC,OACC,cAAe,QAAQ,IAAI,MAC3B,cAAe,GACjB,CAEA,CAAC,iBACC,SAAU,SACV,MAAO,MACP,MAAO,KACP,IAAK,KACP,CAEA,CAAC,eACC,SAAU,SACV,MAAO,MACP,MAAO,MACP,IAAK,MAEL,WAAY,MACd",
+  "names": []
+}

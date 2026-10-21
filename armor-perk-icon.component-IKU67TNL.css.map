@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/authenticated-v2/components/armor-perk-icon/armor-perk-icon.component.scss"],
+  "sourcesContent": ["/*!\n * Copyright (c) 2023 D2ArmorPicker by Mijago.\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as published\n * by the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program.  If not, see <http://www.gnu.org/licenses/>.\n */\n\n.element-icon {\n  height: 100%;\n  width: 100%;\n\n  &.disabled {\n    opacity: 0.5;\n    cursor: default;\n    pointer-events: none;\n  }\n}\n\n.overlay-icon-container {\n  position: relative;\n\n  .overlay-icon {\n    width: 66%;\n    position: absolute;\n    left: 17%;\n    top: 17%;\n    pointer-events: none;\n  }\n}\n:host {\n  display: inline-flex;\n  height: 30px;\n  width: 30px;\n}\n"],
+  "mappings": "AAiBA,CAAA,aACE,OAAA,KACA,MAAA,KAEA,CAJF,YAIE,CAAA,SACE,QAAA,GACA,OAAA,QACA,eAAA,KAIJ,CAAA,uBACE,SAAA,SAEA,CAHF,uBAGE,CAAA,aACE,MAAA,IACA,SAAA,SACA,KAAA,IACA,IAAA,IACA,eAAA,KAGJ,MACE,QAAA,YACA,OAAA,KACA,MAAA",
+  "names": []
+}
